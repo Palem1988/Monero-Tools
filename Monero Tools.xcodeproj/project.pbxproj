@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43895CC61FAAB800004EBE00 /* BitcoinLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 43895CC51FAAB800004EBE00 /* BitcoinLogo.png */; };
+		43895CC81FAAB80B004EBE00 /* MoneroLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 43895CC71FAAB80B004EBE00 /* MoneroLogo.png */; };
+		43895CCA1FAAB812004EBE00 /* EtherLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 43895CC91FAAB812004EBE00 /* EtherLogo.png */; };
+		8B40BD331F996F1500F40307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B40BD321F996F1500F40307 /* AppDelegate.swift */; };
+		8B40BD351F996F1500F40307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B40BD341F996F1500F40307 /* ViewController.swift */; };
+		8B40BD381F996F1500F40307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B40BD361F996F1500F40307 /* Main.storyboard */; };
+		8B40BD3A1F996F1500F40307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B40BD391F996F1500F40307 /* Assets.xcassets */; };
+		8B40BD3D1F996F1500F40307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B40BD3B1F996F1500F40307 /* LaunchScreen.storyboard */; };
+		8B42C5FD1FAA4C450072B35F /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42C5FC1FAA4C450072B35F /* AboutView.swift */; };
+		8B7E2A581F9FB603005F76E7 /* history.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E2A571F9FB602005F76E7 /* history.swift */; };
+		8B7E2A5A1FA4FE2D005F76E7 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E2A591FA4FE2D005F76E7 /* HistoryTableViewCell.swift */; };
+		8B7E2A601FA67FE3005F76E7 /* transactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E2A5F1FA67FE3005F76E7 /* transactionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B40BD441F996F1500F40307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B40BD271F996F1500F40307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B40BD2E1F996F1500F40307;
+			remoteInfo = XMRTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43895CC51FAAB800004EBE00 /* BitcoinLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BitcoinLogo.png; sourceTree = SOURCE_ROOT; };
+		43895CC71FAAB80B004EBE00 /* MoneroLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoneroLogo.png; sourceTree = SOURCE_ROOT; };
+		43895CC91FAAB812004EBE00 /* EtherLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EtherLogo.png; sourceTree = SOURCE_ROOT; };
+		8B40BD2F1F996F1500F40307 /* Monero Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monero Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B40BD321F996F1500F40307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B40BD341F996F1500F40307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B40BD371F996F1500F40307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B40BD391F996F1500F40307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B40BD3C1F996F1500F40307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B40BD3E1F996F1500F40307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B40BD431F996F1500F40307 /* Monero ToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monero ToolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B42C5FC1FAA4C450072B35F /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		8B7E2A571F9FB602005F76E7 /* history.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = history.swift; path = ../history.swift; sourceTree = "<group>"; };
+		8B7E2A591FA4FE2D005F76E7 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryTableViewCell.swift; path = ../HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		8B7E2A5F1FA67FE3005F76E7 /* transactionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = transactionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B40BD2C1F996F1500F40307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B40BD401F996F1500F40307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B40BD261F996F1500F40307 = {
+			isa = PBXGroup;
+			children = (
+				8B40BD311F996F1500F40307 /* Monero Tools */,
+				8B40BD301F996F1500F40307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B40BD301F996F1500F40307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B40BD2F1F996F1500F40307 /* Monero Tools.app */,
+				8B40BD431F996F1500F40307 /* Monero ToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B40BD311F996F1500F40307 /* Monero Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8B7E2A591FA4FE2D005F76E7 /* HistoryTableViewCell.swift */,
+				8B7E2A571F9FB602005F76E7 /* history.swift */,
+				8B40BD321F996F1500F40307 /* AppDelegate.swift */,
+				8B40BD341F996F1500F40307 /* ViewController.swift */,
+				8B42C5FC1FAA4C450072B35F /* AboutView.swift */,
+				8B40BD361F996F1500F40307 /* Main.storyboard */,
+				8B40BD391F996F1500F40307 /* Assets.xcassets */,
+				43895CC51FAAB800004EBE00 /* BitcoinLogo.png */,
+				43895CC91FAAB812004EBE00 /* EtherLogo.png */,
+				43895CC71FAAB80B004EBE00 /* MoneroLogo.png */,
+				8B40BD3B1F996F1500F40307 /* LaunchScreen.storyboard */,
+				8B40BD3E1F996F1500F40307 /* Info.plist */,
+				8B7E2A5F1FA67FE3005F76E7 /* transactionView.swift */,
+			);
+			name = "Monero Tools";
+			path = XMRTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B40BD2E1F996F1500F40307 /* Monero Tools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B40BD4C1F996F1500F40307 /* Build configuration list for PBXNativeTarget "Monero Tools" */;
+			buildPhases = (
+				8B40BD2B1F996F1500F40307 /* Sources */,
+				8B40BD2C1F996F1500F40307 /* Frameworks */,
+				8B40BD2D1F996F1500F40307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monero Tools";
+			productName = XMRTools;
+			productReference = 8B40BD2F1F996F1500F40307 /* Monero Tools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B40BD421F996F1500F40307 /* Monero ToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B40BD4F1F996F1500F40307 /* Build configuration list for PBXNativeTarget "Monero ToolsTests" */;
+			buildPhases = (
+				8B40BD3F1F996F1500F40307 /* Sources */,
+				8B40BD401F996F1500F40307 /* Frameworks */,
+				8B40BD411F996F1500F40307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B40BD451F996F1500F40307 /* PBXTargetDependency */,
+			);
+			name = "Monero ToolsTests";
+			productName = XMRToolsTests;
+			productReference = 8B40BD431F996F1500F40307 /* Monero ToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B40BD271F996F1500F40307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Lasseter Productions";
+				TargetAttributes = {
+					8B40BD2E1F996F1500F40307 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					8B40BD421F996F1500F40307 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B40BD2E1F996F1500F40307;
+					};
+				};
+			};
+			buildConfigurationList = 8B40BD2A1F996F1500F40307 /* Build configuration list for PBXProject "Monero Tools" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B40BD261F996F1500F40307;
+			productRefGroup = 8B40BD301F996F1500F40307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B40BD2E1F996F1500F40307 /* Monero Tools */,
+				8B40BD421F996F1500F40307 /* Monero ToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B40BD2D1F996F1500F40307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43895CC81FAAB80B004EBE00 /* MoneroLogo.png in Resources */,
+				8B40BD3D1F996F1500F40307 /* LaunchScreen.storyboard in Resources */,
+				43895CC61FAAB800004EBE00 /* BitcoinLogo.png in Resources */,
+				43895CCA1FAAB812004EBE00 /* EtherLogo.png in Resources */,
+				8B40BD3A1F996F1500F40307 /* Assets.xcassets in Resources */,
+				8B40BD381F996F1500F40307 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B40BD411F996F1500F40307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B40BD2B1F996F1500F40307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7E2A601FA67FE3005F76E7 /* transactionView.swift in Sources */,
+				8B40BD351F996F1500F40307 /* ViewController.swift in Sources */,
+				8B40BD331F996F1500F40307 /* AppDelegate.swift in Sources */,
+				8B7E2A5A1FA4FE2D005F76E7 /* HistoryTableViewCell.swift in Sources */,
+				8B42C5FD1FAA4C450072B35F /* AboutView.swift in Sources */,
+				8B7E2A581F9FB603005F76E7 /* history.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B40BD3F1F996F1500F40307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B40BD451F996F1500F40307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B40BD2E1F996F1500F40307 /* Monero Tools */;
+			targetProxy = 8B40BD441F996F1500F40307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B40BD361F996F1500F40307 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B40BD371F996F1500F40307 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B40BD3B1F996F1500F40307 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B40BD3C1F996F1500F40307 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B40BD4A1F996F1500F40307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9AV5P59DEF;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Monero Tools";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B40BD4B1F996F1500F40307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9AV5P59DEF;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Monero Tools";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B40BD4D1F996F1500F40307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AV5P59DEF;
+				INFOPLIST_FILE = XMRTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LasseterProductions.Monero-Tools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		8B40BD4E1F996F1500F40307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AV5P59DEF;
+				INFOPLIST_FILE = XMRTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LasseterProductions.Monero-Tools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		8B40BD501F996F1500F40307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XMRToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LasseterProductions.XMRToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monero Tools.temp_caseinsensitive_rename.app/Monero Tools.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		8B40BD511F996F1500F40307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XMRToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LasseterProductions.XMRToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monero Tools.temp_caseinsensitive_rename.app/Monero Tools.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B40BD2A1F996F1500F40307 /* Build configuration list for PBXProject "Monero Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B40BD4A1F996F1500F40307 /* Debug */,
+				8B40BD4B1F996F1500F40307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B40BD4C1F996F1500F40307 /* Build configuration list for PBXNativeTarget "Monero Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B40BD4D1F996F1500F40307 /* Debug */,
+				8B40BD4E1F996F1500F40307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B40BD4F1F996F1500F40307 /* Build configuration list for PBXNativeTarget "Monero ToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B40BD501F996F1500F40307 /* Debug */,
+				8B40BD511F996F1500F40307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B40BD271F996F1500F40307 /* Project object */;
+}
